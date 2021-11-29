@@ -250,46 +250,13 @@ cleanSheets(6)
 #Resell Auctions Scanning
 
 #Xbox Game Pass Ultimate
-scanAuctions('Game Pass auctions', 'game pass ultimate trial', 0, 3, 'US', ['1000'], False, True, 0.00)
+scanAuctions('Joe Montana Rookie', '1981 Topps 216', 0, 3, 'US', ['1000'], False, True, 0.00)
 time.sleep(10)
 
 #Xbox Series X
-scanAuctions('XBSX auctions', 'xbox series x', 1, 4, 'US', ['1000'], False, True, 0.00)
+scanAuctions('Rickey Henderson Rookie', '1980 Topps ', 1, 4, 'US', ['1000'], False, True, 0.00)
 time.sleep(10)
 
 #PS5
-scanAuctions('PS5 auctions', 'playstation 5', 2, 5, 'US', ['1000'], False, True, 0.00)
+scanAuctions('Wayne Gretzky Rookie', '1979 O-Pee-Cheee', 2, 5, 'US', ['1000'], False, True, 0.00)
 time.sleep(10)
-
-excludedSearchTerms = ['Loose','Replacement', 'Letter', 'Frame', 'Reward', 'Keychain', 'Steelbook', 'Cloud', 'Poster', 'Code', 'Memo', 'Shiny', 'Shirt', 'Bonus']
-
-#Buying Auctions Scanning
-scanAuctions('Red Dead Redemption 2 Xbox', 'red dead redepmtion 2 xbox one', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'],  False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('Resident Evil 8 Xbox', 'resident evil 8 xbox one', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'],  False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('New Pokemon Snap Switch', 'new pokemon snap switch', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('Splatoon 2 Switch', 'splatoon 2 switch', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('Pokemon Shield Switch', 'pokemon shield switch', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('Hyrule Warriors Age of Calamity', 'age of calamity switch', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-scanAuctions('Luigis Mansion 3', 'luigis mansion 3 switch', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-time.sleep(10)
-
-#scanAuctions('Starcraft 64', 'starcraft nintendo 64', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-#time.sleep(10)
-
-#scanAuctions('Resident Evil 2 64', 'resident evil 2 nintendo 64', 6, 0, 'US',['2750','3000','4000','5000','1000','1500'], False, False, 30.00, excludedSearchTerms)
-#time.sleep(10)
-
-#scanAuctions('Roomba 675', 'irobot roomba 675', 6, 0, 'US',['1000'], False, False, 100.00)
-#time.sleep(10)
